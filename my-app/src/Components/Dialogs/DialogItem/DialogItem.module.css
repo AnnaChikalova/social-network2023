@@ -1,0 +1,11 @@
+.dialogsItems {
+    padding: 5px;
+}
+
+
+
+.dialogsItems img {
+    height: 25px;
+    width:25px;
+    border-radius: 25px;
+}
