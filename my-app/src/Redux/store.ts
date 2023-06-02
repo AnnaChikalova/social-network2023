@@ -67,6 +67,15 @@ export type setUsersActionType = {
     type:'SET-USERS'
     users:Array<UserType>
 }
+export type setCurrentPageACType = {
+    type:'SET-CURRENT-PAGE'
+    currentPage:number
+}
+export type setTotalCountACType = {
+    type:'SET-TOTAL-COUNT'
+    totalCount:number
+}
+
 
 export type ActionsTypes= AddPostActionType|
                    AddMessageActionType|
@@ -74,7 +83,9 @@ export type ActionsTypes= AddPostActionType|
                    UpdateNewMessageTextActionType|
                    FollowActionType|
                    UnfollowActionType|
-                   setUsersActionType
+                   setUsersActionType|
+                   setCurrentPageACType|
+                   setTotalCountACType
 
 
 
